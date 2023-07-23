@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Recipe Report</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .recipe-image {
+                height: 100px;
+                float: right;
+            }
+        </style>
+    </head>
+    <body>
+    <h1>{{RECIPE_NAME}}</h1> 
+    <div id="recipe-list">
+        <img class="recipe-image" src="{{RECIPE_IMAGE_URL}}" alt="Recipe Image"><br>
+        <a href="{{RECIPE_SOURCE_WEBSITE}}">{{RECIPE_SOURCE}}</a><br>
+            {{RECIPE_CUISINE}}
+            <hr> 
+        </div>
+    <script>
+        // Any additional JavaScript code or scripts can be added here
+    </script>
+</body>
+</html>

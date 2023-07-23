@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="618.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="frontendControllers.AdminRecipePageController">
+   <children>
+      <Circle fill="#784bb5" layoutX="866.0" layoutY="574.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Line endX="900.0" layoutX="10.0" layoutY="160.0" stroke="#403f3f" />
+      <Circle fill="#784bb5" layoutX="49.0" layoutY="87.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#784bb5" layoutX="900.0" layoutY="200.0" radius="51.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#784bb5" layoutX="14.0" layoutY="419.0" radius="47.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#784bb5" layoutX="824.0" layoutY="100.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#784bb5" layoutX="200.0" layoutY="577.0" radius="110.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#784bb5" layoutX="37.0" layoutY="546.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#784bb5" layoutX="183.0" layoutY="52.0" radius="59.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#784bb5" layoutX="732.0" layoutY="606.0" radius="60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#764bb2" height="67.0" stroke="TRANSPARENT" strokeType="INSIDE" width="900.0" />
+      <Text fill="WHITE" layoutX="26.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Site title">
+         <font>
+            <Font name="Calibri Bold" size="32.0" />
+         </font>
+      </Text>
+      <Text fx:id="recipeMenuButton" fill="WHITE" layoutX="569.0" layoutY="41.0" onMouseClicked="#recipeAdminPage" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Recipies">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="ingredientsMenuButton" fill="WHITE" layoutX="662.0" layoutY="41.0" onMouseClicked="#ingredientsAdminPage" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingredients">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="signOutButton" fill="WHITE" layoutX="778.0" layoutY="41.0" onMouseClicked="#signOutUser" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign Out">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="371.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add new recipe">
+         <font>
+            <Font name="Calibri" size="25.0" />
+         </font>
+      </Text>
+      <Text fill="#575757" layoutX="309.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fill out the details of the dish for it to be added to the app">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Text>
+      <TextField fx:id="recipeNameFeild" layoutX="147.0" layoutY="236.0" prefHeight="25.0" prefWidth="300.0" promptText="Cake">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Text layoutX="147.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Recipe name">
+         <font>
+            <Font name="Calibri" size="17.0" />
+         </font>
+      </Text>
+      <TextField fx:id="ingredientNameFeild" layoutX="147.0" layoutY="325.0" prefHeight="30.0" prefWidth="220.0" promptText="egg">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Text layoutX="149.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingredient name">
+         <font>
+            <Font name="Calibri" size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="quantatyFeild" layoutX="393.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantaty">
+         <font>
+            <Font name="Calibri" size="17.0" />
+         </font>
+      </Text>
+      <TextField fx:id="recipeNameFeild11" layoutX="393.0" layoutY="325.0" prefHeight="30.0" prefWidth="220.0" promptText="10">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Text layoutX="634.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Unit">
+         <font>
+            <Font name="Calibri" size="17.0" />
+         </font>
+      </Text>
+      <ChoiceBox fx:id="unitFeild" layoutX="634.0" layoutY="328.0" prefWidth="150.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#764bb2" height="32.0" layoutX="703.0" layoutY="387.0" stroke="#764bb2" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="7.0" width="81.0" />
+      <Text fx:id="addRecipeButton" fill="WHITE" layoutX="727.0" layoutY="410.0" onMouseClicked="#submitRecipe" strokeType="OUTSIDE" strokeWidth="0.0" text="Add">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

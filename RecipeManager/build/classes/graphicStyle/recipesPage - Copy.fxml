@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="618.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Line endX="100.0" layoutX="169.0" layoutY="114.0" startX="-100.0" />
+      <Group layoutX="671.0" layoutY="614.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#764bb2" height="36.0" layoutX="-4.0" layoutY="-111.0" stroke="TRANSPARENT" strokeType="INSIDE" width="171.0" />
+            <Polygon fill="WHITE" layoutX="37.4000244140625" layoutY="5.696044921875" onMouseClicked="#sendRating" points="-59.0, -114.0, -20.5, -81.66829681396484, -35.0, -34.470481872558594, 10.5, -62.168296813964844, 58.0, -34.47047424316406, 43.5, -81.66829681396484, 82.0, -114.0, 29.0, -114.0, 10.5, -164.19293212890625, -8.5, -114.0" scaleX="0.2" scaleY="0.2" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <Polygon fill="#ffef00" layoutX="6.4000244140625" layoutY="5.696044921875" onMouseClicked="#sendRating" points="-59.0, -114.0, -20.5, -81.66829681396484, -35.0, -34.470481872558594, 10.5, -62.168296813964844, 58.0, -34.47047424316406, 43.5, -81.66829681396484, 82.0, -114.0, 29.0, -114.0, 10.5, -164.19293212890625, -8.5, -114.0" scaleX="0.2" scaleY="0.2" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <Polygon fill="WHITE" layoutX="134.4000244140625" layoutY="5.696044921875" onMouseClicked="#sendRating" points="-59.0, -114.0, -20.5, -81.66829681396484, -35.0, -34.470481872558594, 10.5, -62.168296813964844, 58.0, -34.47047424316406, 43.5, -81.66829681396484, 82.0, -114.0, 29.0, -114.0, 10.5, -164.19293212890625, -8.5, -114.0" scaleX="0.2" scaleY="0.2" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <Polygon fill="WHITE" layoutX="101.4000244140625" layoutY="5.696044921875" onMouseClicked="#sendRating" points="-59.0, -114.0, -20.5, -81.66829681396484, -35.0, -34.470481872558594, 10.5, -62.168296813964844, 58.0, -34.47047424316406, 43.5, -81.66829681396484, 82.0, -114.0, 29.0, -114.0, 10.5, -164.19293212890625, -8.5, -114.0" scaleX="0.2" scaleY="0.2" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <Polygon fill="WHITE" layoutX="69.4000244140625" layoutY="5.696044921875" onMouseClicked="#sendRating" points="-59.0, -114.0, -20.5, -81.66829681396484, -35.0, -34.470481872558594, 10.5, -62.168296813964844, 58.0, -34.47047424316406, 43.5, -81.66829681396484, 82.0, -114.0, 29.0, -114.0, 10.5, -164.19293212890625, -8.5, -114.0" scaleX="0.2" scaleY="0.2" stroke="TRANSPARENT" strokeType="INSIDE" />
+         </children>
+      </Group>
+      <TextFlow layoutX="350.0" layoutY="213.0" prefHeight="274.0" prefWidth="364.0" />
+      <Text layoutX="357.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="450.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+     
+   </children>
+</Pane>
