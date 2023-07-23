@@ -1,4 +1,4 @@
-# Recipe Manager - Java Application with FXML User Interface and SQL Database Integration
+# Recipe Manager - Java Application with FXML User Interface and SQL Database Integration - May 2023
 
 The Recipe Manager is a Java project that offers an efficient and user-friendly application for managing and recommending pastry and dessert recipes. The application's graphical user interface (GUI) is implemented using FXML, a declarative markup language for building JavaFX user interfaces. It also utilizes a SQL database for seamless recipe storage and retrieval.
 
